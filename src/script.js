@@ -25,6 +25,10 @@ console.log(mesh.position.length())
 
 mesh.position.normalize()
 console.log(mesh.position.length())
+
+// Axes helper
+const axesHelper = new THREE.AxesHelper(2)
+scene.add(axesHelper)
 /**
  * Sizes
  */
